@@ -15,7 +15,7 @@ from pyrogram import Client
 
 
 
-from bot.config import Config
+from bot config import Config
 
 
 

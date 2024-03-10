@@ -24,7 +24,7 @@
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string. Get this from @BotFather",
-      "value": "6552074969:AAHfh8HAuMZWEA8NFPf4hv-1MjTeaCshQ5Q",
+      "value": "6552074969:AAGDmeIZzHgd6o0c3N2L6E6hkk-k7eLumLY",
       "required": true
     },
     "APP_ID": {

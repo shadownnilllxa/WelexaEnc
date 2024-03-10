@@ -4,7 +4,7 @@ class Config(object):
     SESSION_NAME = get_config("SESSION_NAME", "AHCompressorBot")
     # AHCompressBot....
     # sucks Dude
-    APP_ID = int(get_config("APP_ID", 12345))
+    APP_ID = int(get_config("APP_ID", ""))
     API_HASH = get_config("API_HASH", "")
     LOG_CHANNEL = get_config("LOG_CHANNEL")
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
@@ -13,7 +13,7 @@ class Config(object):
         int(x) for x in get_config(
             "AUTH_USERS",
             should_prompt=True
-        ).split()
+        )
     )
 # array , simplest method was AUTH_USERS = [] ; AUTH_USERS.append(your telegram id) 🤣
     # array to store the channel ID who are authorized to use the bot

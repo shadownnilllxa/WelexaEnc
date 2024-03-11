@@ -21,7 +21,7 @@ from bot import (
     watermark 
 )
 from bot.helper_funcs.utils import add_task, on_task_complete, sysinfo
-from pyrogram import Client, filters
+from pyrogram import Client, filters, enums
 from pyrogram.handlers import MessageHandler, CallbackQueryHandler
 from pyrogram.types import Message
 from psutil import disk_usage, cpu_percent, virtual_memory, Process as psprocess
@@ -75,7 +75,7 @@ if __name__ == "__main__" :
     
     
     #
-    app.set_parse_mode("html")
+    app.set_parse_mode(enums.ParseMode.MARKDOWN)
     #
     # STATUS ADMIN Command
 

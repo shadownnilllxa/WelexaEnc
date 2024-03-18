@@ -9,8 +9,8 @@
     "Encoder",
     "bot"
   ],
-  "success_url": "https://t.me/linux_repo",
-  "website": "https://t.me/Discovery_Updates",
+  "success_url": "https://t.me/AnimeX_Hindii",
+  "website": "https://t.me/AnimeX_Hindii",
   "repository": "https://github.com/GitXBot101/GroupEncoder",
   "env": {
     "ENV": {
@@ -24,32 +24,32 @@
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string. Get this from @BotFather",
-      "value": "6552074969:AAGDmeIZzHgd6o0c3N2L6E6hkk-k7eLumLY",
+      "value": "6947417865:AAFhHyzPZrF_qKpCU9ev-i6BEDAK-BYN9dU",
       "required": true
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "19863702",
+      "value": "23539392",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "6d48cb362a97a43cfc944fd5c0f917f9",
+      "value": "5ee767ace3c694a4fb39cdd2cc78eaca",
       "required": true
     },
     "BOT_USERNAME": {
       "description": "Your Bot Username. Without `@` before Username!",
-      "value": "pro_encoder_xbot",
+      "value": "encode_hyper_bot",
       "required": true
     },
     "LOG_CHANNEL": {
       "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
-      "value": "encoderbotlogsss",
+      "value": "encoderhyperx",
       "required": true
     },
     "AUTH_USERS": {
       "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
-      "value": "6885162066",
+      "value": "1576425650",
       "required": true
     }
   },
